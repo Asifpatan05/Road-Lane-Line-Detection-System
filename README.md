@@ -1,5 +1,3 @@
-For your Road Lane Line Detection System, here’s a structured approach to help you get started:
-
 1. Researching State-of-the-Art Algorithms
 Classical Computer Vision Techniques:
 
