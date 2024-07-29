@@ -3,36 +3,37 @@ Classical Computer Vision Techniques:
 
 Canny Edge Detection: Detects edges in an image using a multi-stage algorithm.
 Hough Transform: Detects lines in images. It can be used to find the lane lines after edge detection.
-Machine Learning Approaches:
-
+**Machine Learning Approaches:**
 Support Vector Machines (SVM): Can be used for image segmentation and classification tasks.
 Random Forests: Useful for classification problems and can be used to identify lane pixels.
-Deep Learning Approaches:
 
+**Deep Learning Approaches:**
 Convolutional Neural Networks (CNNs): Architectures like LeNet, VGG, ResNet can be adapted for lane detection.
 Fully Convolutional Networks (FCNs): Useful for semantic segmentation, which can classify each pixel of an image to a specific class.
 SegNet, U-Net: Specialized architectures for image segmentation.
 End-to-End Learning Approaches: Networks like SCNN (Spatial CNN) and LaneNet are specifically designed for lane detection.
-2. Implementing the Detection System
-Data Collection and Preparation:
 
+
+**2. Implementing the Detection System**
+**Data Collection and Preparation:**
 Collect a diverse set of images and videos of road scenes under different conditions (day, night, rain, snow, etc.).
 Annotate the lane lines in these images for supervised learning methods.
-Preprocessing:
 
-Convert images to grayscale.
-Apply Gaussian Blur to reduce noise.
-Perform image normalization and scaling.
-Algorithm Implementation:
+**Preprocessing:**
+*Convert images to grayscale.
+*Apply Gaussian Blur to reduce noise.
+*Perform image normalization and scaling.
 
-Classical Methods:
+**Algorithm Implementation:**
+**Classical Methods:**
 Apply Canny Edge Detection.
 Use Hough Transform to detect lines.
 Deep Learning Methods:
 Choose a suitable deep learning framework (TensorFlow, PyTorch).
 Design and train the neural network model using annotated data.
 Apply data augmentation techniques to improve the robustness of the model.
-3. Testing and Evaluation
+
+**3. Testing and Evaluation**
 Performance Metrics:
 
 Accuracy: Percentage of correctly detected lane lines.
