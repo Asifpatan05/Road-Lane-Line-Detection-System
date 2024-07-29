@@ -1,5 +1,3 @@
-1. Researching State-of-the-Art Algorithms
-Classical Computer Vision Techniques:
 
 Canny Edge Detection: Detects edges in an image using a multi-stage algorithm.
 Hough Transform: Detects lines in images. It can be used to find the lane lines after edge detection.
